@@ -1,0 +1,29 @@
+{
+  "header.home": "Home",
+  "header.news": "News",
+  "header.profile": "Profile",
+  "header.login": "Log In",
+  "news.loadMore": "Load more",
+  "news.loading": "Loading...",
+  "news.postsAmount": "Posts on screen:",
+  "post.error": "Something went wrong, post not deleted",
+  "login.login": "Log in",
+  "login.email": "Email Address",
+  "login.password": "Password",
+  "profile.name": "Name Surname",
+  "profile.age": "Age",
+  "profile.location": "Location",
+  "profile.description": "Description",
+  "home.text": [
+    "Our Father, who art in heaven,",
+    "Hallowed be thy Name.",
+    "Thy Kingdom come.",
+    "Thy will be done,",
+    "On earth as it is in heaven.",
+    "Give us this day our daily bread.",
+    "And forgive us our trespasses,",
+    "As we forgive those who trespass against us.",
+    "And lead us not into temptation,",
+    "But deliver us from evil. Amen."
+  ]
+}

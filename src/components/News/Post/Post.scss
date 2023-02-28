@@ -1,0 +1,18 @@
+.error-message {
+	height: 50px;
+	display: flex;
+	border-radius: 15px;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	background-color: rgb(208 93 93 / 80%);
+}
+
+.post {
+	&__item {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+}

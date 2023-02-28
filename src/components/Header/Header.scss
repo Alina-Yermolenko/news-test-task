@@ -1,0 +1,30 @@
+.header-navigation {
+	// height: 200px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	&__list {
+		display: flex;
+		padding: 0;
+		text-transform: uppercase;
+		align-items: center
+	}
+
+	&__item {
+		width: 90px;
+		margin-right: 10px;
+	}
+}
+
+.active {
+	color: #1a76d2;
+}
+
+
+button.MuiButton-sizeSmall {
+	padding: 0px 10px;
+	min-width: 40px;
+	font-size: 14px;
+	margin-left: 5px;
+}
