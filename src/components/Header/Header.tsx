@@ -39,19 +39,19 @@ export const Header = () => {
 					<li
 						className="header-navigation__item">
 						<NavLink
-							to={`/news`}
+							to='/news'
 						>{t(`header.news`)}</NavLink>
 					</li>
 					{isProfile
 							? <li
 								className="header-navigation__item">
 								<NavLink
-									to={`/profile`}
+									to='/profile'
 								>{t(`header.profile`)}</NavLink>
 							</li>
 							: <li
 								className="header-navigation__item">
-								<NavLink to="/login">
+								<NavLink to='/login'>
 									<Button
 										variant="outlined"
 										size="small"

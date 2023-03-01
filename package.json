@@ -1,5 +1,6 @@
 {
   "name": "test-news",
+  "homepage": "https://alina-yermolenko.github.io/news-page/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

@@ -10,7 +10,7 @@ import * as enTranslation from './translations/en.json';
 import * as ukTranslation from './translations/uk.json';
 
 import * as React from 'react';
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate, HashRouter } from 'react-router-dom';
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 
@@ -33,7 +33,7 @@ i18n.use(initReactI18next).init({
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Header />
       <main>
         <Routes>
@@ -55,7 +55,7 @@ function App() {
       <footer>
         @Company Inc 2023
       </footer>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
